@@ -1,0 +1,2 @@
+class Ovoz:
+    pass
