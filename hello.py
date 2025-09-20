@@ -1,4 +1,5 @@
 ######### variables
+print("hello github!")
 # 1
 my_number = 10
 print(my_number)
