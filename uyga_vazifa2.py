@@ -1,4 +1,3 @@
-##########shart operatorlari
 #1
 # a=int(input("sonni kiritng: "))
 # if a>0:
@@ -360,9 +359,250 @@ import math
 #30
 # x= int(input("1-999 sonini oraliqdagi sonni kiriting: "))
 # if 10<=x<=99 and x%2==0:
-#     print("sikki xonali juft son !")
+#     print("ikki xonali juft son !")
 # elif 100<=x<=999 and x%2==0:
 #     print("uch xonali juft son!")   
+##############bolean##########
+# #1
+# a=int(input("soni kiriting: "))
+# x= a>0
+# print(x)
+# #2
+# a=int(input("soni kiriting: "))
+# x= a%2!=0
+# print(x)
+# #3
+# a=int(input("soni kiriting: "))
+# x= a%2==0
+# print(x)
+# #4
+# a=int(input("soni kiriting: "))
+# b=int(input("soni kiriting: "))
+# x= a>2 and b<=3
+# print(x)
+# #5
+# a=int(input("soni kiriting: "))
+# b=int(input("soni kiriting: "))
+# x=a>=0 or b<-2
+# print(x)
+# #6
+# a=int(input("soni kiriting: "))
+# b=int(input("soni kiriting: "))
+# c=int(input("soni kiriting: "))
+# x= a<=b<=c
+# print(x)
+# #7
+# a=int(input("soni kiriting: "))
+# b=int(input("soni kiriting: "))
+# c=int(input("soni kiriting: "))
+# x= a<b<c
+# print(x)
+#8
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# x= a%2!=0 and b%2!=0
+# print(x)
+#9
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# x= a%2!=0 or b%2!=0
+# print(x)
+#10
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# x= (a%2!=0 and b%2==0) or (a%2==0 and b%2!=0)
+# print(x)
+#11
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# x= (a%2!=0 and b%2!=0) or (a%2==0 and b%2==0)
+# print(x)
+#12
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# c=int(input("sonni kirting: "))
+
+# x= a>0 and b>0 and c>0
+# print(x)
+# #13
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# c=int(input("sonni kirting: "))
+
+# x= (a>0 or b>0 or c>0)
+# print(x)
+# #14
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# c=int(input("sonni kirting: "))
+
+# x=(a>0 and b<0 and c<0) or (a<0 and b>0 and c<0) or (a<0 and b<0 and c>0)
+# print(x)
+
+#15
+# a=int(input("sonni kirting: "))
+# b=int(input("sonni kirting: "))
+# c=int(input("sonni kirting: "))
+
+# x=(a>0 and b>0 and c<0) or (a<0 and b>0 and c>0) or (a>0 and b<0 and c>0)
+# print(x)
+#16
+# x= int(input("sonni kirting: "))
+# y= 10<=x<=99 and x%2==0
+# print(y)
+#17
+# x= int(input("sonni kirting: "))
+# y= 100<=x<=999 and x%2!=0
+# print(y)
+#18
+# a=int(input("sonni kiritng: "))
+# b=int(input("sonni kiriting: "))
+# c=int(input("sonni kiritng: "))
+# x= (a==b!=c) or (a==c!=b) or(c==b!=a)
+# print(x)
+#19
+# a=int(input("sonni kiritng: "))
+# b=int(input("sonni kiriting: "))
+# c=int(input("sonni kiritng: "))
+# x= (a%2==0 and (-a==b or -a==c)) or (b%2==0 and(-b==a or -b==c)) or(c%2==0 or (-c==a or -c==b))
+# print(x)
+#20
+# a=int(input("sonni kirting; "))
+# x= (a//100)!=((a//10)//10)!=(a%100)
+# print(x)
+#21
+# a=int(input("sonni kirting; "))
+# x= (a//100)<((a//10)//10)<(a%100)
+# print(x)
+# #22
+# a=int(input("sonni kirting; "))
+# x= (a//100)<((a//10)//10)<(a%100) or(a//100)>((a//10)//10)>(a%100) 
+# print(x)
+#23
+# x=int(input("sonni kiritng: "))
+# y= x//100==x%100
+# print(y)
+#24
+# a=int(input("sonni kiriting: "))
+# b=int(input("sonni kiriting: "))
+# c=int(input("sonni kiriting: "))
+# d=b**2-4*a(c)
+# x= d>=0
+# print(x)
+#25
+# x=int(input("sonni kiriting: "))
+# y=int(input("sonni kiriting: "))
+# a= x<0 and y>0
+# print(a)
+#26
+# x=int(input("sonni kiriting: "))
+# y=int(input("sonni kiriting: "))
+# a= x>0 and y<0
+# print(a)
+#27
+# x=int(input("sonni kiriting: "))
+# y=int(input("sonni kiriting: "))
+# a= (x<0 and y>0) or (x<0 and y<0)
+# print(a)
+#28
+# x=int(input("sonni kiriting: "))
+# y=int(input("sonni kiriting: "))
+# a= (x>0 and y>0) or (x<0 and y<0)
+# print(a)
+#29
+# x=int(input("x ni kiritng; "))
+# y=int(input("y ni kiritng; "))
+# x1=int(input("x1 ni kiritng; "))
+# y1=int(input("y1 ni kiritng; "))
+# x2=int(input("x2 ni kiritng; "))
+# y2=int(input("y2 ni kiritng; "))
+# a= x2>x>x1 and y1>=y>=y2
+# print(a)
+#30
+# a=int(input("a ni kiritng; "))
+# b=int(input("b ni kiritng; "))
+# c=int(input("c ni kiritng; "))
+# x= a==b==c
+# print(x)
+#31
+# a=int(input("a ni kiritng; "))
+# b=int(input("b ni kiritng; "))
+# c=int(input("c ni kiritng; "))
+# x= a==b!=c or a==c!=b or c==b!=a
+# print(x)
+#32
+# a=int(input("a ni kiritng; "))
+# b=int(input("b ni kiritng; "))
+# c=int(input("c ni kiritng; "))
+# x= a**2+b**2==c**2 or a**2+c**2=b**2 or b**2+c**2==a**2
+# print(x)
+#33
+# a=int(input("a ni kiritng; "))
+# c=int(input("c ni kiritng; "))
+# # x= a+b>c and a+c>b and c+b>a
+# # print(x)
+# # b=int(input("b ni kiritng; "))
+# #34
+# # a=int(input("a ni kiritng; "))
+# # b=int(input("b ni kiritng; "))
+# # x= (a%2!=0 and b%2==0) or (a%2==0 and (b%2!=0))
+# # print(x)
+# #35
+# x1=int(input("x1= "))
+# y1=int(input("y1= "))
+# x2=int(input("x2= "))
+# y2=int(input("y2= "))
+# q=((x1+y1)%2==0 and (x2+y2)%2==0 ) or ((x1+y1)%2!=0 and (x2+y2%2!=0))
+# print(q)
+
+# ##37
+# # x1=int(input("a ni kiritng; "))
+# # y1=int(input("b ni kiritng; "))
+# # x2=int(input("a ni kiritng; "))
+# # y2=int(input("b ni kiritng; "))
+# # x= abs(x1-x2)<=1 and abs(y1-y2)<=1
+# # print(x)
+# #38
+# # x1=int(input("a ni kiritng; "))
+# # y1=int(input("b ni kiritng; "))
+# # x2=int(input("a ni kiritng; "))
+# # y2=int(input("b ni kiritng; "))
+# # x= abs(x1-x2)==abs(y1-y2)
+# # print(x)
+# #39
+# # x1=int(input("a ni kiritng; "))
+# # y1=int(input("b ni kiritng; "))
+# # x2=int(input("a ni kiritng; "))
+# # y2=int(input("b ni kiritng; "))
+# # x= (x1==x2 or y1==y2 or abs(x1-x2)==abs(y1-y2))
+# # print(x)
+# #9
+# import math
+# # a= int(input("sonni kiriting: "))
+# # b= int(input("sonni kiriting: "))
+# # print(math.sqrt(a*b))
+# # r1=int(input("radiusni kiriting: "))
+# # r2=int(input("radiusni kiriting: "))
+# # s1=math.pi*r1**2
+# # s2=math.pi*r2**2
+# # s3=s1-s2
+# # print(s3)
+# # a=int(input("a= "))
+# # b=int(input("b= "))
+# # c=int(input("c= "))
+
+# # ac=abs(a-c)
+# bc=abs(b-c)
+# print(ac,bc,ac+bc)
+# 
+
+
+# x1=int(input("x1= "))
+# y1=int(input("y1= "))
+# x2=int(input("x2= "))
+# y2=int(input("y2= "))
+# q= (x1==x2 or y1==y2)
+# print(q)
 ####shoh yurishi
 # x1=int(input("x1= "))
 # y1=int(input("y1= "))
@@ -370,11 +610,18 @@ import math
 # y2=int(input("y2= "))
 # q= ((x1==x2 or y1==y2) and (abs(y2-y1)<=1 and abs(x1-x2)<=1) ) or (abs(x1-x2)==abs(y1-y2)==1)
 # print(q)
-########## ot yorishi
-# # 
+
 # x1=int(input("x1= "))
 # y1=int(input("y1= "))
 # x2=int(input("x2= "))
 # y2=int(input("y2= "))
-# q= (abs(x2-x1)==2 and abs(y2-y1)==1) or (abs(x2-x1)==1 and abs(y2-y1)==2)
+# q= (abs(x1-x2)==abs(y1-y2))
 # print(q)
+########## ot yorishi
+# 
+x1=int(input("x1= "))
+y1=int(input("y1= "))
+x2=int(input("x2= "))
+y2=int(input("y2= "))
+q= (abs(x2-x1)==2 and abs(y2-y1)==1) or (abs(x2-x1)==1 and abs(y2-y1)==2)
+print(q)
