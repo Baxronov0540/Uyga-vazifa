@@ -1,3 +1,4 @@
+##########shart operatorlari
 #1
 # a=int(input("sonni kiritng: "))
 # if a>0:
